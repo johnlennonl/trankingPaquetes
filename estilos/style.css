@@ -1,0 +1,91 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #ebf4f5;
+}
+
+.container {
+    text-align: center;
+}
+
+#tracking-result {
+    margin-top: 20px;
+}
+
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.contenedorInformacion{
+    width: 400px;
+    height: 300px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #414141;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label{
+    text-align: start;
+    font-weight: bold;
+    color: #4d574e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.buttonSweetAlert{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+
+}
+
+.imageSweetAlert{
+    width: 140px;
+}
